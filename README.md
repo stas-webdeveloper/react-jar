@@ -11,6 +11,8 @@ After the first coin landed inside the jar, the link "clear" and the button "don
 - Step 3: Once users decide that "jar" contains the exact amount, they will click "done."  The big jar becomes empty again, and one of the placeholders on the right changes to the image of "closed jar"  
 - Step 3.1: If users decide to change coins, click "clear," and "jar" gets to the default state (empty).  
 - Step 3.2: When a user clicks on "double-check" they see what inside of this "jar"  
-- Step 3.3: If you click "redo" in the modal window, the "closed jar" gets to the default state (empty).
+- Step 3.3: If you click "redo" in the modal window, the "closed jar" gets to the default state (empty).  
+- Step 5: После сабмита пользователю показывается результат. Красным подсвечивается неверный результат, зеленым верный.
+
 
 
