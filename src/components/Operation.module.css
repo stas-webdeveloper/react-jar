@@ -1,0 +1,80 @@
+.operation-wrapper {
+    display: flex;
+    padding-bottom: 139px;
+}
+
+.coins {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 85px;
+    height: 340px;
+}
+.coin {
+    width: 85px;
+    height: 85px;
+    background-image: url('/assets/quarter.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.coin2 {
+    width: 58px;
+    height: 58px;
+    background-image: url('/assets/dime.png');
+}
+.coin3 {
+    width: 78px;
+    height: 78px;
+    background-image: url('/assets/nickel.png');
+}
+.coin4 {
+    width: 65px;
+    height: 64px;
+    background-image: url('/assets/cent.png');
+}
+.big-jar {
+    width: 200px;
+    height: 100%;
+    padding-left: 44px;
+}
+.jar {
+    width: 160px;
+    height: 240px;
+    padding-bottom: 16px;
+    margin: 0 auto;
+    background-image: url('/assets/jar_big.png');
+    background-position: 0 -16px;
+}
+.clear {
+    display: inline-block;
+    padding-bottom: 16px;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    color: #369CB7;
+    text-decoration-line: underline;
+}
+.done {
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #369CB7;
+    border: 1px solid #369CB7;
+    border-radius: 5px;
+    background: transparent;
+}
+.done:hover {
+    cursor: pointer;
+}
+a[disabled],
+button[disabled],
+button[disabled]:hover {
+    cursor: not-allowed;
+    opacity: 0.5;
+    text-decoration: none;
+    color: currentColor;
+}

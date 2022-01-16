@@ -1,0 +1,13 @@
+.container {
+    width:  1184px;
+    padding: 45px 120px 93px 77px;
+    margin: 0 auto;
+    border: 0.5px solid #369CB7;
+    box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 7px;
+    background: #fff;
+}
+.inner-wrapper {
+  display: flex;
+  justify-content: space-between;
+}

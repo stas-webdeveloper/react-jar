@@ -1,0 +1,14 @@
+.result {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 447px;
+    height: 340px;
+}
+.jar-small {
+    width: 102px;
+    height: 170px;
+    padding-bottom: 20px;
+    background-image: url('/assets/jar_small.png');
+    background-repeat: no-repeat;
+}
